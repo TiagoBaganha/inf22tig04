@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final</title>
+    <link rel="stylesheet" type="text/css"href="styles.css">
+</head>
+<body>
+    <style>
+    .container {
+      position: relative;
+      width: 1280px; 
+    }
+  
+    .imagem {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .texto {
+      position: absolute;
+      top: 30%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      color: rgb(37, 37, 134);
+      font-size: 60px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    /* teste imagem tela cheia */
+       body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .full-width-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .transparent-image {
+      opacity: 0.5; 
+    }
+
+
+    /*tabela 3x3 */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 0.1px solid rgba(61, 80, 187, 0.795);
+      padding: 3px;
+      text-align: left;
+    }
+
+    </style>
+    <main>
+        <div class="container">
+            <img class="full-width-image" cass="transparent-image" src="imagem/imagem principal.jpg" alt="imagem principal">
+            <div class="texto"> Zoológico da Maia
+            </div>
+        </div>
+    <!--tabela 3v3-->
+        <table>
+            <tr>
+                <th>Fotografias</th>
+                <th>Espécie</th>
+                <th>O que é</th>
+            </tr>
+            <tr>
+                <td><img src="imagem/leão.jpg" alt="Imagem 1" width="300"> <img src="imagem/leao 1.jpg" alt="Imagem 2" width="250"> <img src="imagem/leao 3.jpg" alt="Imagem 3" width="300"></td>
+                <td>Leão</td>
+                <td>Explicação 1</td>
+            </tr>
+            <tr>
+                <td><img src="imagem/girafa.jpg" alt="Imagem 5" width="300"></td>
+                <td>Girafa</td>
+                <td>Explicação 2</td>
+            </tr>
+            <tr>
+                <td><img src="imagem/elefante.jpg" alt="Imagem 9" width="300"></td>
+                <td>Elefante</td>
+                <td>Explicação 3</td>
+            </tr>
+        </table>
+
+
+        
+
+
+
+
+    </main>
+    
+</body>
+</html>
