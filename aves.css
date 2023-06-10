@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.container {
+    position: relative;
+    width: 1280px; 
+    }
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    }
+
+.texto {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: rgb(238, 240, 159);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+/* teste imagem tela cheia */
+body, html {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.transparent-image {
+    opacity: 0.5; 
+    }
+
+
+/*tabela 3x3 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    border: 0.1px solid rgba(61, 80, 187, 0.795);
+    padding: 3px;
+    text-align: left;
+    }
