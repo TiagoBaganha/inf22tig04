@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+body, html {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.transparent-image {
+    opacity: 0.5; 
+    }  
+
 .container {
     position: relative;
     width: 1280px; 
@@ -15,28 +30,18 @@
     top: 30%;
     left: 80%;
     transform: translate(-50%, -50%);
-    color: rgb(91, 198, 206);
-    font-size: 100px;
+    color: rgba(79, 160, 236, 0.959);
+    font-size: 80px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-    
-/* teste imagem tela cheia */
-body, html {
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-  }
 
-.full-width-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
-.transparent-image {
-    opacity: 0.5; 
-    }
-
+.linha-com-espaco {
+    padding: 1%;
+    text-align: justify;
+    margin-bottom: 0%;
+    text-indent: 2%;
+}
 
 /*tabela 3x3 */
 table {
@@ -49,3 +54,4 @@ th, td {
     padding: 3px;
     text-align: left;
     }
+   

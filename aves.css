@@ -37,7 +37,12 @@ body, html {
     opacity: 0.5; 
     }
 
-
+.linha-com-espaco {
+    padding: 1%;
+    text-align: justify;
+    margin-bottom: 0%;
+    text-indent: 2%;
+}
 /*tabela 3x3 */
 table {
     border-collapse: collapse;
@@ -49,3 +54,4 @@ th, td {
     padding: 3px;
     text-align: left;
     }
+
