@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --cor0: #137dc5;
+    --cor1: #164161;
+    --cor2: #23F5A8;
+    --cor3: #c5ebd6; 
+    --cor4: #dfe9e3;
+    --cor5: #107559;
+
+    --font-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+
+body{
+    background-image: url('Imagens/nascer-do-sol-em-áfrica-57509011.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 280px;
+    max-width: 1000px;
+    margin:auto;
+    padding:20px;   
+     
+}
+
+
+.estpag{
+    box-shadow: 0px 0px 8px black;
+    min-width:100px;
+    max-width:800px;
+    display:block;
+    margin: auto;
+    padding: 0px 0px 10px 0px;
+}
+.pontas{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+header{
+  
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ffffff
+    
+}
+
+header > img{
+    
+    max-width: 200px;
+    display: block;
+    margin: auto;
+
+}
+header > p{
+    color: #000000; 
+    text-align: center;
+    padding:10px;
+    display: block;
+    margin: auto;
+    font-family: var(--font-destaque);
+}
+
+
+nav{
+    font-family: var(--font-destaque);
+    padding: 10px 0px;
+    background-color:var(--cor5) 
+}
+nav > a{
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none; 
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover{
+    background-color: var(--cor3)
+    
+}
+
+
+main{
+    min-width: 100px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 5px 10px 0px 10px;
+    background-color: var(--cor4);
+}
+main h2{   
+    font-family: var(--font-destaque);
+    color: var(--cor1)
+    
+}
+
+main h3{
+    background-image: linear-gradient(to right, var(--cor0), transparent)
+}
+
+.fotonome {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.transparent-image {
+    opacity: 0.5; 
+    }
+.txtimg {
+    position: relative;
+    max-width: 100%;
+}
+    
+.txtimg img {
+max-width: 100%;
+height: auto;
+}
+
+.txtimg .texto {
+position: absolute;
+top: 27%;
+left: 80%;
+transform: translate(-50%, -50%);
+color: #ffffff;
+font-size: 50px;
+text-align: center;
+}
+      
+
+
+.linha-com-espaco {
+    padding: 1%;
+    text-align: justify;
+    margin-bottom: 0%;
+    text-indent: 2%;
+}
+
+
+div#container{
+    overflow-x: auto;
+    height: 100%;
+    
+}
+
+table{
+    background-color: #ffffff;
+}
+th {
+    border: 0.1px solid rgba(61, 80, 187, 0.795);
+    padding: 0px;
+    text-align: left;
+    color:#ffffff;
+    background-color:#137dc5;
+ }
+
+
+td {
+    border: 0.1px solid rgba(61, 80, 187, 0.795);
+    padding: 0px;
+    text-align: center;
+    }
+
+tbody tr:nth-child(even){
+    background-color:#eaeaea
+}
+
+
+main p{
+    font-family: var(--font-padrao);
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 10px;
+
+
+}
+main img{
+    max-width: 450px;
+    min-width: 150px;
+    display:block;
+    margin:auto;
+    
+
+}
+
+main img.pequena{
+    width: 85%;
+}
+
+
+video{
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    min-width: 150px;
+    max-height: 450px;
+    min-height: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 500px;
+    min-height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+
+} 
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+
+   
+}
+.slide.active {
+    opacity: 1;
+}
+
+.ssp{
+    width:100%;
+    height:100%;
+}
+
+.documento{
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    text-align: center;
+    background-color: var(--cor4);
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: .5em;
+}

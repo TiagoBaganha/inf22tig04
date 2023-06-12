@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">  
+  <link rel="shortcut icon" 
+  href="Imagens/Icons8-Windows-8-Animals-Bear-Track.ico" type="image/x-icon">
+  <title>Animais</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="estpag">
+  <header>
+      <img src="Imagens/fotologop2.png" alt="Foto do Logo">
+    <p><strong>Seja bem-vindo ao ZOON, o seu zoo online.</strong> </p>
+  </header>
+  <nav>
+      <a href="#">Início</a>
+      <a href="aves.html">Aves</a>
+      <a href="mamíferos.html">Mamíferos</a>
+      <a href="peixes.html">Peixes</a>
+  </nav>
+  <main>
+      <h2>Zoológico On-line</h2> 
+      <h3>ANIMAL</h3>
+      <p>
+        <a href="https://pt.wikipedia.org/wiki/Animalia" target="_blank">Animalia<sup>[1]</sup></a>, 
+        <strong>Animal</strong> ou <strong><em>Metazoa</em></strong>
+        é um reino biológico composto por seres vivos pluricelulares,
+        eucariontes, heterotróficos, cujas células formam tecidos biológicos, com capacidade de responder
+        ao ambiente (possuem tecido nervoso) que os envolve ou, por outras palavras, pelos animais.
+      </p>
+      <p>
+        Os animais são seres vivos que para serem chamados por esse nome possuem algumas caracteristicas em comum:
+        nascem, desenvolvem-se, reproduzem-se e morrem.
+        o conjunto dessas etapas da vida num animal é apelidade de Ciclo de Vida.
+        Os animais podem ser classificados em diferentes formas:
+        Vertebrados ou Inverterbados, Selvagens ou Domésticos, Terrestes, Aérios ou Aquáticos.
+      </p>
+  
+      <picture>
+        <source media="(max-width:500px)" srcset="Imagens/Leoes2.png">
+        <img class="pequena" src="Imagens/Leoes.jpg" alt="Leões"></picture>
+
+      <h3>HISTÓRIA DO NOSSO ZOO</h3>
+      <p>
+          Um Jardim zoológico, também chamado de somente Zoo é um local especifico para manter os animais selvagens
+          para poderem ser exibidos ao público. 
+        </p>
+        <p>
+          Este site dedicado a um jardim zoológico foi criado para compartilhar informações,
+          promover a conservação da vida selvagem e fornecer uma experiência educacional para visitantes virtuais.
+        </p>
+        <p>
+          O site oferece detalhes valiosos sobre os animais, as suas características
+          e comportamentos e ainda fotos aproximar a experiência do zoológico dos visitantes online.
+        </p> 
+        <p>
+        Ao fornecer acesso à informação e promover a conscientização, o site desempenha um papel vital em inspirar curiosidade, 
+        respeito e cuidado com os animais e o meio ambiente.
+      </p><video class="video" width="560" height="315" controls muted src="Imagens/video.mp4">
+      </video>
+      <h3>CURIOSIDADES SOBRE OS TRABALHADORES</h3>
+      <p>
+        Neste espaço existem profissionais especializados para manter o bem estar dos animais, com veterinários, biólogos
+        e zootecnicistas. Estas três profissões são importantes para o cuidado dos animais,
+        estes trabalhas para cuidar da alimentação dos animais, do ambiente dos recintos, da saúde mental
+        e física dos animais.</p>
+      <p>
+        Os Zoológicos têm como principal função a preservação e conservação das espécies em vida livre.
+        Este objetivo é alcançado por meio da educação ambiental, pesquisa científica, reprodução de espécies
+        ameaçadas de extinsão para reintrodução e recebimento e recuperação de animais vítimas de tráfico,
+        atropelamentos, queimadas e entre outros.
+      </p>
+      <div class="slideshow">
+        <div class="slide active">
+          <picture>
+          <source media="(max-width:400px)" srcset="Imagens/ss1np.png">
+          <img class="ssp" src="Imagens/ss1n.png" alt="Slide 1"></picture>
+        </div>
+        <div class="slide"><picture>
+          <source media="(max-width:400px)" srcset="Imagens/ss3np.png">
+          <img class="ssp" src="Imagens/ss2n.png" alt="Slide 2"></picture>
+        </div>
+        <div class="slide"><picture>
+          <source media="(max-width:400px)" srcset="Imagens/ss3np.png">
+          <img class="ssp" src="Imagens/ss3n.png" alt="Slide 3"></picture>
+        </div>
+      </div>
+      <script>
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 3000);
+    
+        function nextSlide() {
+          slides[currentSlide].className = 'slide';
+          currentSlide = (currentSlide + 1) % slides.length;
+          slides[currentSlide].className = 'slide active';
+        }
+        </script>
+        <a class="documento"href="XML.xml" download>Descarregue o Xml</a>
+  </main>
+  <footer>
+    <hr>
+    <p>© 2023 Site sobre zoo. Todos os direitos reservados.</p>     
+  </footer>
+  </div>
+</body>
+</html>
+
